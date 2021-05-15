@@ -14,9 +14,6 @@ function App() {
           Any medium/format can be used, however, guidelines are provided to make it easy to share your work on social media.
         </p>
         <p>
-          Programming is a form of art, not just 
-        </p>
-        <p>
           Here's how you can make the most out of this challenge:
           <ul>
             <li>Create alongside a community of like minded people from around the world</li>
