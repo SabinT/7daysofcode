@@ -39,4 +39,17 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
   }  
+
+  .App-footer {
+    font-size: medium;
+  }
+
+  a {
+    color: #afcaff;
+  }
+
+  a:hover {
+    background-color: white;
+    color: black;
+  }
 }
