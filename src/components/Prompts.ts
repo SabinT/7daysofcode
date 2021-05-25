@@ -14,12 +14,28 @@ const themes: { [key: string]: string; }  = {
     '2021-06': 'Nature'
 }
 
+function getLocalYearMonthDate(d: Date) {
+    let month = '' + (d.getMonth() + 1);
+    let day = '' + d.getDate();
+    const year = d.getFullYear();
+
+    if (month.length < 2) {
+        month = '0' + month;
+    }
+
+    if (day.length < 2) {
+        day = '0' + day;
+    }
+
+    return [year, month, day].join('-');
+}
+
 export function getPromptForDate(date: Date) {
-    const key = date.toISOString().substr(0, 10);
+    const key = getLocalYearMonthDate(date);
     return prompts[key] ?? '...';
 }
 
 export function getThemeForDate(date: Date) {
-    const key = date.toISOString().substr(0, 7);
+    const key = getLocalYearMonthDate(date).substr(0, 7);
     return themes[key] ?? '...';
 }
