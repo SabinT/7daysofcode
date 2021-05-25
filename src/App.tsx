@@ -26,7 +26,7 @@ function App() {
         <li>Inspire and be inspired. Discover others' works, and be discovered.</li>
       </ul>
       <p>
-        Make sure to share your work on social media with the tag <strong>#7daysofcode</strong> so that creations from this challenge can be discovered easily.
+        Share your work on social media with the tag <strong>#7daysofcode</strong> so that creations from this challenge can be discovered easily.
       </p>
       <div className='App-footer'>
         The code for this website is available on <a href='https://github.com/SabinT/7daysofcode'>github</a>, maintained by <a href="https://lumic.space">Sabin T</a>.
