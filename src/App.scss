@@ -11,6 +11,10 @@ body {
   font-family: 'Inconsolata', monospace;
   font-weight: 300;
   font-size: calc(8px + 2vmin);
+
+  .App-title-image {
+    width: 100%;
+  }
   
   strong {
     font-weight: 400;

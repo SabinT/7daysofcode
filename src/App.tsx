@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        {/* <p>
           <strong>#7DaysOfCode</strong> Creative Coding Challenge <br />
             Make art with code on the first 7 days of every month.
-          </p>
+          </p> */}
+          <img className='App-title-image' src='title.png' alt='7 Days of Code - Monthly Creative Coding Challenge' />
         <ChallengeTimer />
         <PromptsPanel />
       </header>
