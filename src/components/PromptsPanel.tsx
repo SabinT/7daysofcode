@@ -1,10 +1,11 @@
 import './PromptsPanel.scss';
 import React from 'react';
 
-import { getPromptForDate } from './Prompts';
+import { getPromptForDate, getThemeForDate } from './Prompts';
 import * as Utils from '../utils/DateUtils';
 
 const shortDateFormat = new Intl.DateTimeFormat('default', { month: 'short', day: 'numeric' });
+const yearMonthFormat = new Intl.DateTimeFormat('default', { month: 'short', year: 'numeric' });
 
 function PromptsPanel() {
    const today = new Date();
@@ -36,9 +37,14 @@ function PromptsPanel() {
     }
 
     return (
-        <div className='prompts-list'>
-            { prompts }
-        </div>
+        <>
+            <div className='prompts-theme'>
+                Theme for { yearMonthFormat.format(challengeDate) }: <strong>{ getThemeForDate(challengeDate) }</strong>
+            </div>
+            <div className='prompts-list'>
+                { prompts }
+            </div>
+        </>
     );
 }
 

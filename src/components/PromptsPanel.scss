@@ -3,6 +3,10 @@
     flex-flow: wrap;
     justify-content: center;
 
+    .prompts-theme {
+        margin-bottom: 8px;
+    }
+
     .prompt {
         min-width: 100px;
         min-height: 100px;

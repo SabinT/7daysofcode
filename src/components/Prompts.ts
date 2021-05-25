@@ -10,7 +10,16 @@ const prompts: { [key: string]: string; }  = {
     '2021-06-07': 'Wind'
 };
 
+const themes: { [key: string]: string; }  = {
+    '2021-06': 'Nature'
+}
+
 export function getPromptForDate(date: Date) {
     const key = date.toISOString().substr(0, 10);
     return prompts[key] ?? '...';
+}
+
+export function getThemeForDate(date: Date) {
+    const key = date.toISOString().substr(0, 7);
+    return themes[key] ?? '...';
 }
