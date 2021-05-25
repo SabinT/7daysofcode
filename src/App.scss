@@ -22,8 +22,7 @@ body {
   }
   
   ul {
-    list-style-type: none;
-    list-style: none;
+    list-style-type: decimal-leading-zero;
 
     li {
       line-height: 1.25;

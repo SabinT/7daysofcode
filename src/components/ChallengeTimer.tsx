@@ -23,7 +23,7 @@ function ChallengeTimer() {
     var today = new Date();
     if (Utils.isChallengeActive(today)) {
         // Don't show timer when a challenge is running
-        //return <></>;
+        return <></>;
     }
 
     const nextChallengeDate = Utils.getStartOfNextMonth(today);

@@ -7,7 +7,8 @@ import * as Utils from '../utils/DateUtils';
 const shortDateFormat = new Intl.DateTimeFormat('default', { month: 'short', day: 'numeric' });
 
 function PromptsPanel() {
-    const today = new Date();
+   const today = new Date();
+   //const today = new Date("2020-07-01Z");
 
     let challengeDate: Date;
     if (Utils.isChallengeAboutToStart(today)) {

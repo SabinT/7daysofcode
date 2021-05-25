@@ -16,17 +16,17 @@ function App() {
         <PromptsPanel />
       </header>
       <p>
-        Here's why you should join this challenge:
+        Why you should join this challenge:
       </p>
       <ul>
-        <li>🎨 Create alongside a community of like minded people</li>
-        <li>⌨️ Hone your programming skills by creating interesting artwork</li>
-        <li>🖼️ Boost your portfolio with 7 new creations every month</li>
-        <li>📚 Practice and learn new algorithms and techniques</li>
-        <li>🧑🏾‍🤝‍🧑🏼 Inspire and be inspired. Discover others' works, and be discovered.</li>
+        <li>Create alongside a community of like minded people</li>
+        <li>Hone your programming skills by creating interesting artwork</li>
+        <li>Boost your portfolio with 7 new creations every month</li>
+        <li>Practice and learn new algorithms and techniques</li>
+        <li>Inspire and be inspired. Discover others' works, and be discovered.</li>
       </ul>
       <p>
-        Make sure to share your work on social media with the hashtag <strong>#7daysofcode</strong>, to make it easy to discover.
+        Make sure to share your work on social media with the tag <strong>#7daysofcode</strong> so that creations from this challenge can be discovered easily.
       </p>
     </div>
   );
