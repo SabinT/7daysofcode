@@ -1,0 +1,27 @@
+.prompts-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+    .prompt {
+        min-width: 100px;
+        min-height: 100px;
+
+        background-color: black;
+        margin: 4px;
+        padding: 8px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .prompt-date {
+
+        }
+
+        .prompt-text {
+            margin-top: 8px;
+            font-weight: 300;
+        }
+    }
+}

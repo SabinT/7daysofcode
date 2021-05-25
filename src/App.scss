@@ -1,0 +1,39 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.App {
+  max-width: 800px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: auto;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+  font-size: calc(8px + 2vmin);
+  
+  strong {
+    font-weight: 400;
+    background-color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    list-style: none;
+
+    li {
+      line-height: 1.25;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }  
+}

@@ -1,0 +1,15 @@
+.challenge-timer {
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    font-size: calc(8px + 2vmin);
+
+    p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p + p {
+        padding-top: 8px;
+    }
+}
