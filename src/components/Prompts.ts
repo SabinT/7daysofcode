@@ -7,11 +7,24 @@ const prompts: { [key: string]: string; }  = {
     '2021-06-04': 'Sky',
     '2021-06-05': 'Flower',
     '2021-06-06': 'Fire',
-    '2021-06-07': 'Wind'
+    '2021-06-07': 'Wind',
+
+    '2021-07-01': 'Mirror',
+    '2021-07-02': 'Flow',
+    '2021-07-03': 'Repeat',
+    '2021-07-04': 'Combine',
+    '2021-07-05': 'Rotate',
+    '2021-07-06': 'Distort',
+    '2021-07-07': 'Separate'
 };
 
+/**
+ * key is the month in format 'YYYY-MM'
+ * value is the theme for the month
+ */
 const themes: { [key: string]: string; }  = {
-    '2021-06': 'Nature'
+    '2021-06': 'Nature',
+    '2021-07': 'Transformations'
 }
 
 function getLocalYearMonthDate(d: Date) {
