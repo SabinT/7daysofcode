@@ -15,7 +15,7 @@ const prompts: { [key: string]: string; }  = {
     '2021-07-04': 'Combine',
     '2021-07-05': 'Rotate',
     '2021-07-06': 'Distort',
-    '2021-07-07': 'Separate'
+    '2021-07-07': 'Divide'
 };
 
 /**
