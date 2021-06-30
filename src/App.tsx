@@ -33,7 +33,6 @@ function App() {
       <ol>
         <li>Get into the habit of creative coding and improve your workflow.</li>
         <li>Create alongside a community of like minded people</li>
-        <li>Hone your programming skills by creating interesting artwork</li>
         <li>Boost your portfolio with 7 new creations every month</li>
         <li>Practice and learn new algorithms and techniques</li>
         <li>Inspire and be inspired. Discover others' works, and be discovered.</li>
