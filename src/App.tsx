@@ -11,7 +11,7 @@ function App() {
           <strong>#7DaysOfCode</strong> Creative Coding Challenge <br />
             Make art with code on the first 7 days of every month.
           </p> */}
-          <img className='App-title-image' src='title.png' alt='7 Days of Code - Monthly Creative Coding Challenge' />
+        <img className='App-title-image' src='title.png' alt='7 Days of Code - Monthly Creative Coding Challenge' />
         <ChallengeTimer />
         <PromptsPanel />
       </header>
@@ -19,9 +19,11 @@ function App() {
         How to participate:
       </h3>
       <ol>
-        <li>Use the prompt however you wish (e.g., as a 'what' or a 'how') to create something with your framework/language of choice.</li>
-        <li>You may create something new, or iterate on something you are already working on</li>
-        <li>Share your work on social media with the tag <strong>#7daysofcode</strong></li>
+        <li>Use an element of <strong>programming</strong> to create art in any format you want(e.g., image, video, audio, electronics, LEDs, interactive, and whatnot). You can use any kind of programming: any language, any environment/framework.</li>
+        <li>Make something with the prompt of the day in mind.</li>
+        <li>You may create something new, or iterate on something you were already working on.</li>
+        <li>Share your work on social media with the tag <strong>#7daysofcode.</strong></li>
+        <li>Follow the hashtag <strong>#7daysofcode</strong> (e.g., on <a href='https://www.instagram.com/explore/tags/7daysofcode/'>Instagram</a>) to find works from other people on the challenge.</li>
         <li>If you cannot do all 7 days, pick the prompts you like and participate on the days you want!</li>
       </ol>
 
