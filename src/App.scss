@@ -8,20 +8,21 @@ body {
   padding-left: 8px;
   padding-right: 8px;
   margin: auto;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-weight: 300;
   font-size: calc(8px + 2vmin);
 
   .App-title-image {
     width: 100%;
     margin-top: 8px;
+    margin-bottom: 32px;
   }
-  
+
   strong {
     font-weight: 400;
     background-color: black;
   }
-  
+
   ol {
     list-style-type: decimal-leading-zero;
 
@@ -30,7 +31,7 @@ body {
       padding-bottom: 10px;
     }
   }
-  
+
   .App-header {
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-  }  
+  }
 
   .App-footer {
     font-size: medium;
