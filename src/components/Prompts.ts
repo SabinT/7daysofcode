@@ -26,7 +26,7 @@ const prompts: { [key: string]: IPrompt }  = {
     '2021-08-02': { title: 'Stars', subtitle: 'and constellations' },
     '2021-08-03': { title: 'Supernova', subtitle: 'some kind of epic explosion' },
     '2021-08-04': { title: 'Orbit', subtitle: 'planets, moons, satellites, etc' },
-    '2021-08-05': { title: 'Nebula', subtitle: 'stuff made of stardust' },
+    '2021-08-05': { title: 'Nebula', subtitle: 'space clouds where stars are born' },
     '2021-08-06': { title: 'Galaxy', subtitle: 'Milky Way, Andromeda, Whirlpool, etc' },
     '2021-08-07': { title: 'Black Hole', subtitle: '' }
 };
