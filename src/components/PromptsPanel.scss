@@ -1,32 +1,45 @@
-.prompts-list {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    max-width: 600px;
+.prompts-theme {
+    margin-bottom: 16px;
+}
 
-    .prompts-theme {
-        margin-bottom: 8px;
-    }
+.prompts-list {
 
     .prompt {
-        min-width: 100px;
-        min-height: 100px;
-
-        background-color: black;
-        margin: 4px;
-        padding: 8px;
-        
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
 
         .prompt-date {
             font-weight: 200;
+            text-align: left;
+            background-color: black;
+            margin: 4px;
+            padding: 16px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
         }
 
         .prompt-text {
-            margin-top: 8px;
-            font-weight: 400;
+            background-color: black;
+            margin: 4px;
+            padding: 16px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 75%;
+
+            .prompt-title {
+                //margin-top: 8px;
+                font-weight: 400;
+            }
+
+            .prompt-subtitle {
+                margin-top: 4px;
+                font-weight: 300;
+                font-size: calc(6px + 2vmin);
+            }
         }
     }
 }
