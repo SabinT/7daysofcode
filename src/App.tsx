@@ -1,6 +1,6 @@
 import "./App.scss";
 import ChallengeTimer from "./components/ChallengeTimer";
-import PromptsPanel from "./components/PromptsPanel";
+// import PromptsPanel from "./components/PromptsPanel";
 
 function App() {
   return (
@@ -12,7 +12,18 @@ function App() {
           alt="7 Days of Code - Monthly Creative Coding Challenge"
         />
         <ChallengeTimer />
-        <PromptsPanel />
+        {/* <PromptsPanel /> */}
+        <div className="App-temporary-notice">
+          7 Days of Code is on a break on September 2021. <br />
+          Rather, it's freestyle this month :)
+          <br />
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1528962862197-29c4f24ccc04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
+            alt="Laptop with coffee indicating chill mood for coding"
+          />
+        </div>
       </header>
       <h3>How to participate:</h3>
       <ol>
