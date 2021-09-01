@@ -15,7 +15,8 @@ function App() {
         {/* <PromptsPanel /> */}
         <div className="App-temporary-notice">
           7 Days of Code is on a break on September 2021. <br />
-          Rather, it's freestyle this month :)
+          Rather, it's freestyle this month :) <br />
+          It will be back, so stay tuned!
           <br />
         </div>
         <div>
