@@ -1,5 +1,6 @@
 import "./App.scss";
 import ChallengeTimer from "./components/ChallengeTimer";
+import PromptsPanel from "./components/PromptsPanel";
 // import PromptsPanel from "./components/PromptsPanel";
 
 function App() {
@@ -12,20 +13,49 @@ function App() {
           alt="7 Days of Code - Monthly Creative Coding Challenge"
         />
         <ChallengeTimer />
-        {/* <PromptsPanel /> */}
-        <div className="App-temporary-notice">
-          7 Days of Code is on a break on September 2021. <br />
-          Rather, it's freestyle this month :) <br />
-          It will be back, so stay tuned!
-          <br />
-        </div>
-        <div>
-          <img
-            src="https://images.unsplash.com/photo-1528962862197-29c4f24ccc04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
-            alt="Laptop with coffee indicating chill mood for coding"
-          />
-        </div>
+        <PromptsPanel />
       </header>
+
+      <div>Many thanks to <a href="https://www.instagram.com/jasonnomore/">Jason</a>, <a href="https://www.instagram.com/vertex.shader/">Samir</a>, <a href="https://www.instagram.com/sosunnyproject/">sosunnyproject</a> for helping with prompts for current/past challenges!</div>
+
+      <h3>Some tips:</h3>
+      <ol>
+        <li>
+          There are several websites that will let you pick colors based on relationships between colors on a color wheel (<a href="https://color.adobe.com/create">example</a>).
+          Even if you're picking colors with code, you can do something similar!
+        </li>
+        <li>
+          You don't always have to work with RGB colors, you can use alternate representations like HSL.
+          Consider reading about "color spaces" and "perceptual color models", as there are more than one way to blend colors, or to create gradients between them.
+          Here's an <a href="https://raphlinus.github.io/color/2021/01/18/oklab-critique.html">interesting article</a> by Raph Levien comparing different color spaces.
+        </li>
+        <li>
+          Don't get stuck too much on theory, be sure to use your own intuition as well!
+        </li>
+        <li>
+          The works of your favorite artists might make for good study material!
+        </li>
+      </ol>
+
+      <h3>What is "7 Days of Code"?</h3>
+      <div>
+        This is a super informal creative coding challenge that is meant to provide an instigation to create.
+        No hard rules, no stressful deadlines. It's like an "art + code party" that you can join if you like the theme (and have the time for it).
+      </div>
+
+      <h3>Why should you participate?</h3>
+      <ol>
+        <li>
+          Get into the habit of creative coding and improve your workflow.
+        </li>
+        <li>Create alongside a community of like minded people</li>
+        <li>Boost your portfolio with 7 new creations every month</li>
+        <li>Practice and learn new algorithms and techniques</li>
+        <li>
+          Inspire and be inspired. Discover others' works, and be discovered.
+        </li>
+      </ol>
+
       <h3>How to participate:</h3>
       <ol>
         <li>
@@ -60,18 +90,6 @@ function App() {
         </li>
       </ol>
 
-      <h3>Why you should join this challenge:</h3>
-      <ol>
-        <li>
-          Get into the habit of creative coding and improve your workflow.
-        </li>
-        <li>Create alongside a community of like minded people</li>
-        <li>Boost your portfolio with 7 new creations every month</li>
-        <li>Practice and learn new algorithms and techniques</li>
-        <li>
-          Inspire and be inspired. Discover others' works, and be discovered.
-        </li>
-      </ol>
       <h3>Some tips:</h3>
       <ol>
         <li>
@@ -88,16 +106,13 @@ function App() {
           patterns
         </li>
         <li>
-          Got questions? Need help? Have suggestions? Send an email to{" "}
-          <strong>info</strong> <strong>at</strong>{" "}
-          <strong>7daysofcode.art</strong> (or file an issue on{" "}
-          <a href="https://github.com/SabinT/7daysofcode">github</a>)
+          Got suggestions? Send a message to <a href="https://www.instagram.com/lumic.exe/">the host</a>, or file an issue on{" "}
+          <a href="https://github.com/SabinT/7daysofcode">github</a>.
         </li>
       </ol>
       <div className="App-footer">
         The code for this website is available on{" "}
-        <a href="https://github.com/SabinT/7daysofcode">github</a>, maintained
-        by <a href="https://lumic.space">Sabin T</a>.
+        <a href="https://github.com/SabinT/7daysofcode">github</a>.
       </div>
     </div>
   );
