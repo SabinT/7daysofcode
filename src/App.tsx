@@ -30,6 +30,22 @@ function App() {
           Here's an <a href="https://raphlinus.github.io/color/2021/01/18/oklab-critique.html">interesting article</a> by Raph Levien comparing different color spaces.
         </li>
         <li>
+          Consider adding a book on color theory to your library. Some recommendations:
+          <ol>
+            <li><a href="https://www.handprint.com/HP/WCL/color2.html">The geometry of color perception</a></li>
+            <li><a href="http://www.huevaluechroma.com">Modern colour theory for traditional and digital painting media</a></li>
+            <li><a href="https://online.maryville.edu/liberal-arts-degrees/the-art-of-color">The Art of Color: Color Wheel &amp; Color Relationships</a></li>
+            <li>Color and Light: A guide for the realist painter (by <a href="https://www.instagram.com/jamesgurneyart">James Gurney</a>)</li>
+            <li>The Art of Color: The Subjective Experience and Objective Rationale of Color (by Johannes Itten)</li>
+          </ol>
+          Many thanks to these folks for above recommendations:
+          <a href="https://www.instagram.com/amy_goodchild">Amy Goodchild</a>,
+          <a href="https://www.instagram.com/bendotk/">Ben Kovach</a>,
+          <a href="https://www.instagram.com/lalabadie/">Louis-André Labadie</a>,
+          <a href="https://www.instagram.com/piterpasma/">Piter Pasma</a>,
+          <a href="https://www.instagram.com/rwstruhl/">Ryan Struhl</a>.
+        </li>
+        <li>
           Don't get stuck too much on theory, be sure to use your own intuition as well!
         </li>
         <li>
